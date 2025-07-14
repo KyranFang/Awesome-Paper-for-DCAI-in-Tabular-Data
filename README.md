@@ -13,12 +13,15 @@
 | TableBench     | Reasoning     | 2024 | [Link](https://arxiv.org/abs/2408.09174)  [Repo](https://github.com/TableBench/TableBench)|
 | TQA-Bench      | Reasoning     | 2024 | [Link](https://arxiv.org/pdf/2411.19504)  [Repo](https://github.com/Relaxed-System-Lab/TQA-Bench)|
 
-### Classical Benchmarks for Tabular Data
+### Selected Classical Benchmarks for Tabular Data
 | Benchmark Name | Task Type     | Year | Source                                                                                  |
 |:--------------:|:-------------:|:----:|:---------------------------------------------------------------------------------------:|
 | Seq2SQL        | Text2SQL      | 2017 | [Link](https://arxiv.org/pdf/1709.00103)  [Repo](https://github.com/salesforce/WikiSQL)|
 | Spider         | Text2SQL      | 2018 | [Link](https://arxiv.org/pdf/1809.08887)  [Repo](https://yale-lily.github.io/spider)|
 | TABFACT        | Fact-checking | 2020 | [Link](https://arxiv.org/pdf/1909.02164)  [Repo](https://github.com/wenhuchen/Table-Fact-Checking)|
-| TAPAS          | Fact-checking | 2020 | [Link](https://arxiv.org/pdf/2004.02349)  [Repo](https://github.com/google-research/tapas)|
+| TAPAS          | Text2SQL      | 2020 | [Link](https://arxiv.org/pdf/2004.02349)  [Repo](https://github.com/google-research/tapas)|
 | FinQA          | Reasoning     | 2021 | [Link](https://arxiv.org/pdf/2109.00122)  [Repo](https://github.com/czyssrs/FinQA)|
+| Archer         | Text2SQL      | 2022 | [Link](https://arxiv.org/pdf/2402.12554)  [Repo](https://sig4kg.github.io/archer-bench/dataset/database.zip)|
 | BIRD           | Text2SQL      | 2023 | [Link](https://arxiv.org/pdf/2305.03111.pdf)  [Repo](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/bird)|
+
+## Data-Centric AI in Tabular Data
