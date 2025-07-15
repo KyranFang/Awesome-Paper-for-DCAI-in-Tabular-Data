@@ -31,7 +31,7 @@ This repository focuses exclusively on data-centric AI methods for tabular data.
 | BIRD           | Text2SQL      | 2023 | [Link](https://arxiv.org/pdf/2305.03111.pdf)  [Repo](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/bird)|
 
 ## Data-Centric AI in Tabular Data Management
-We have collected recent influential papers on Data-Centric AI Technologies employed to enhance the performance of LLMs in tabular data-related tasks, with annotations on the relevant technology classes featured in these papers. Here, `FS` stands for Feature Selection and `FG` for Feature Generation. The papers listed below are arranged in a roughly chronological order of publication.
+We have collected recent influential papers on Data-Centric AI Technologies employed to enhance the performance of LLMs in tabular data-related tasks, with annotations on the relevant technology classes featured in these papers. Here, `FS` stands for Feature Selection, `FG` for Feature Generation and `DA` for data augmentation. The papers listed below are arranged in a roughly chronological order of publication.
 
 | Venue     | Paper                                                        |                            Links                             |   Tags    | TLDR                                                         |
 | :-------- | :----------------------------------------------------------- | :----------------------------------------------------------: | :-------: | :----------------------------------------------------------- |
@@ -40,6 +40,7 @@ We have collected recent influential papers on Data-Centric AI Technologies empl
 | AAAI'25    | Dynamic and Adaptive Feature Generation with LLM | [paper](https://ojs.aaai.org/index.php/AAAI/article/view/33851)    | `FG` | 
 | IJCAI'25    | Evolutionary Large Language Model for Automated Feature Transformation | [paper](https://arxiv.org/pdf/2406.03505)    | `FG` | 
 | ICDM'25    | OpenFE++: Efficient Automated Feature Generation via Feature Interaction |   [paper](https://arxiv.org/pdf/2504.17356)    | `FS` | 
+| NAACL'25    | ALTER: Augmentation for Large-Table-Based Reasoning |   [paper](https://aclanthology.org/2025.naacl-long.9/)    | `DA` | 
 | Arxiv'2504    | Comprehend, Divide, and Conquer: Feature Subspace Exploration via Multi-Agent Hierarchical Reinforcement Learning |   [paper](https://arxiv.org/pdf/2504.17356)    | `FS` | 
 | Arxiv'2507    | Reinforcement Learning-based Feature Generation Algorithm for Scientific Data | [paper](https://arxiv.org/abs/2507.03498)    | `FG` | 
 | KDD'24    | Unsupervised Generative Feature Transformation via Graph Contrastive Pre-training and Multi-objective Fine-tuning |   [paper](https://arxiv.org/pdf/2405.16879)    | `FG` | 
@@ -62,11 +63,13 @@ We have collected recent influential papers on Data-Centric AI Technologies empl
 | SIGIR'23   | Single-shot feature selection for multi-task recommendations |   [paper](https://dl.acm.org/doi/abs/10.1145/3539618.3591767)    | `FS` |
 | TKDE'23    | Automated feature selection: A reinforcement learning perspective |   [paper](https://ieeexplore.ieee.org/abstract/document/9547816)    | `FS` | 
 | ICDM'23    | Self-optimizing Feature Generation via Categorical Hashing Representation and Hierarchical Reinforcement Crossing |   [paper](https://arxiv.org/pdf/2309.04612)    | `FG` | 
+| ICDM'23    | Beyond discrete selection: Continuous embedding space optimization for generative feature selection |   [paper](https://arxiv.org/pdf/2302.13221)    | `FS` | 
 | ICML'22    | Difer: differentiable automated feature engineering. |   [paper](https://arxiv.org/abs/2211.12507)    | `FG` `FS` | 
 | KDD'22     | AutoFAS: Automatic Feature and Architecture Selection for Pre-Ranking System |   [paper](https://arxiv.org/pdf/2205.09394)    | `FS` | 
 | KDD'22     | Group-wise reinforcement feature generation for optimal and explainable representation space reconstruction. |   [paper](https://arxiv.org/pdf/2205.14526)    | `FG` | 
 | KDD'22     | AdaFS: Adaptive Feature Selection in Deep Recommender System |   [paper](https://dl.acm.org/doi/10.1145/3534678.3539204)    | `FS` | 
 | WWW'22     | Autofield: Automating feature selection in deep recommender systems |   [paper](https://dl.acm.org/doi/abs/10.1145/3485447.3512071)    | `FS` | 
+| EMNLP'22   | Realistic Data Augmentation Framework for Enhancing Tabular Reasoning |   [paper](https://aclanthology.org/2022.findings-emnlp.324.pdf)    | `DA` | 
 | KDD'21     | Fives: Feature interaction via edge search for large-scale tabular data |   [paper](https://arxiv.org/pdf/2007.14573)    | `FG` | 
 | CIKM'20    | Tolerant Markov Boundary Discovery for Feature Selection |   [paper](https://dl.acm.org/doi/10.1145/3340531.3415927)    | `FS` | 
 | ICDM'20    | AutoFS: Automated Feature Selection via Diversity-aware Interactive Reinforcement Learning |   [paper](https://arxiv.org/pdf/2008.12001)    | `FS` | 
@@ -74,6 +77,7 @@ We have collected recent influential papers on Data-Centric AI Technologies empl
 | KDD'19     | Automating Feature Subspace Exploration via Multi-Agent Reinforcement Learning |   [paper](https://dl.acm.org/doi/10.1145/3292500.3330868)    | `FS` | 
 
 ### Tutorial and Survey Paper
+[A Survey on Table Mining with Large Language Models: Challenges, Advancements and Prospects](https://d197for5662m48.cloudfront.net/documents/publicationstatus/252177/preprint_pdf/3d9c9b7d57481675d0d6e486c8bb7985.pdf)
 [Tabular Data-centric AI: Challenges, Techniques and Future Perspectives](https://dl.acm.org/doi/pdf/10.1145/3627673.3679102)
 [A Survey on Data-Centric AI: Tabular Learning from Reinforcement Learning and Generative AI Perspective](https://arxiv.org/pdf/2502.08828)
 [A Survey of Table Reasoning with Large Language Models](https://arxiv.org/abs/2402.08259)
