@@ -64,7 +64,7 @@ We have collected recent influential papers on Data-Centric AI Technologies empl
 | ICDM'23    | Self-optimizing Feature Generation via Categorical Hashing Representation and Hierarchical Reinforcement Crossing |   [paper](https://arxiv.org/pdf/2309.04612)    | `FG` | 
 | ICML'22    | Difer: differentiable automated feature engineering. |   [paper](https://arxiv.org/abs/2211.12507)    | `FG` `FS` | 
 | KDD'22     | AutoFAS: Automatic Feature and Architecture Selection for Pre-Ranking System |   [paper](https://arxiv.org/pdf/2205.09394)    | `FS` | 
-| KDD'22     | Group-wise reinforcement feature generation for optimal and explainable representation space reconstruction. |   [paper](https://arxiv.org/pdf/2205.14526)    | `FG` | 
+| KDD'22     | Group-wise reinforcement feature generation for optimal and explainable representation space reconstruction. |   [paper](https://arxiv.org/pdf/2205.14526)    | `FG` | 
 | KDD'22     | AdaFS: Adaptive Feature Selection in Deep Recommender System |   [paper](https://dl.acm.org/doi/10.1145/3534678.3539204)    | `FS` | 
 | WWW'22     | Autofield: Automating feature selection in deep recommender systems |   [paper](https://dl.acm.org/doi/abs/10.1145/3485447.3512071)    | `FS` | 
 | KDD'21     | Fives: Feature interaction via edge search for large-scale tabular data |   [paper](https://arxiv.org/pdf/2007.14573)    | `FG` | 
@@ -75,3 +75,5 @@ We have collected recent influential papers on Data-Centric AI Technologies empl
 
 ### Tutorial and Survey Paper
 [Tabular Data-centric AI: Challenges, Techniques and Future Perspectives](https://dl.acm.org/doi/pdf/10.1145/3627673.3679102)
+[A Survey on Data-Centric AI: Tabular Learning from Reinforcement Learning and Generative AI Perspective](https://arxiv.org/pdf/2502.08828)
+[A Survey of Table Reasoning with Large Language Models](https://arxiv.org/abs/2402.08259)
