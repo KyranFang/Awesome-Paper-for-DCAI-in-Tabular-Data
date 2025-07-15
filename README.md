@@ -64,7 +64,7 @@ We have collected recent influential papers on Data-Centric AI Technologies empl
 | TKDE'23    | Automated feature selection: A reinforcement learning perspective |   [paper](https://ieeexplore.ieee.org/abstract/document/9547816)    | `FS` | 
 | ICDM'23    | Self-optimizing Feature Generation via Categorical Hashing Representation and Hierarchical Reinforcement Crossing |   [paper](https://arxiv.org/pdf/2309.04612)    | `FG` | 
 | ICDM'23    | Beyond discrete selection: Continuous embedding space optimization for generative feature selection |   [paper](https://arxiv.org/pdf/2302.13221)    | `FS` | 
-| ICML'22    | Difer: differentiable automated feature engineering. |   [paper](https://arxiv.org/abs/2211.12507)    | `FG` `FS` | 
+| ICML'22    | Difer: differentiable automated feature engineering. |   [paper](https://arxiv.org/abs/2211.12507)    | `FG` `FS` | 
 | KDD'22     | AutoFAS: Automatic Feature and Architecture Selection for Pre-Ranking System |   [paper](https://arxiv.org/pdf/2205.09394)    | `FS` | 
 | KDD'22     | Group-wise reinforcement feature generation for optimal and explainable representation space reconstruction. |   [paper](https://arxiv.org/pdf/2205.14526)    | `FG` | 
 | KDD'22     | AdaFS: Adaptive Feature Selection in Deep Recommender System |   [paper](https://dl.acm.org/doi/10.1145/3534678.3539204)    | `FS` | 
