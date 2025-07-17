@@ -33,7 +33,7 @@ This repository focuses exclusively on data-centric AI methods for tabular data.
 \[Building\]
 
 ## Data-Centric AI in Tabular Data Management
-We have collected recent influential papers on Data-Centric AI Technologies employed to enhance the performance of LLMs in tabular data-related tasks, with annotations on the relevant technology classes featured in these papers. Here, `FS` stands for Feature Selection, `FG` for Feature Generation and `DA` for data augmentation. The papers listed below are arranged in a roughly chronological order of publication.
+We have collected recent influential papers on Data-Centric AI Technologies employed to enhance the performance of LLMs in tabular data-related tasks, with annotations on the relevant technology classes featured in these papers. Here, `DA` stands for Data Augmentation, `FS` stands for Feature Selection, `FG` for Feature Generation and `DA` for data augmentation. The papers listed below are arranged in a roughly chronological order of publication.
 
 | Venue     | Paper                                                        |                            Links                             |   Tags    | TLDR                                                         |
 | :-------- | :----------------------------------------------------------- | :----------------------------------------------------------: | :-------: | :----------------------------------------------------------- |
@@ -43,11 +43,22 @@ We have collected recent influential papers on Data-Centric AI Technologies empl
 | IJCAI'25    | Evolutionary Large Language Model for Automated Feature Transformation | [paper](https://arxiv.org/pdf/2406.03505)    | `FG` | 
 | ICDM'25    | OpenFE++: Efficient Automated Feature Generation via Feature Interaction |   [paper](https://arxiv.org/pdf/2504.17356)    | `FS` | 
 | NAACL'25    | ALTER: Augmentation for Large-Table-Based Reasoning |   [paper](https://aclanthology.org/2025.naacl-long.9/)    | `DA` | 
+| NAACL'25    | TART: An Open-Source Tool-Augmented Framework for Explainable Table-based Reasoning |   [paper](https://arxiv.org/pdf/2409.11724)    | `DA` | 
+| NAACL'25    | H-STAR: LLM-driven Hybrid SQL-Text Adaptive Reasoning on Tables | [paper](https://aclanthology.org/2025.naacl-long.445.pdf)    | ？  | 
 | Arxiv'2504    | Comprehend, Divide, and Conquer: Feature Subspace Exploration via Multi-Agent Hierarchical Reinforcement Learning |   [paper](https://arxiv.org/pdf/2504.17356)    | `FS` | 
 | Arxiv'2507    | Reinforcement Learning-based Feature Generation Algorithm for Scientific Data | [paper](https://arxiv.org/abs/2507.03498)    | `FG` | 
+| NIPS'24    | TableRAG: Million-Token Table Understanding with Language Models |   [paper](https://arxiv.org/pdf/2410.04739)    | ？ | 
+| ICLR'24    | OpenTab: Advancing Large Language Models as Open-domain Table Reasoners |   [paper](https://arxiv.org/pdf/2402.14361)    | ？ | 
+| ICLR'24    | Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding |   [paper](https://arxiv.org/pdf/2401.04398)    | ？ | 
 | KDD'24    | Unsupervised Generative Feature Transformation via Graph Contrastive Pre-training and Multi-objective Fine-tuning |   [paper](https://arxiv.org/pdf/2405.16879)    | `FG` | 
 | KDD'24    | Feature selection as deep sequential generative learning. |   [paper](https://arxiv.org/pdf/2403.03838)    | `FS` | 
 | SIGMOD'24    | SAGA: A Scalable Framework for Optimizing Data Cleaning Pipelines for Machine Learning Applications |   [paper](https://dl.acm.org/doi/10.1145/3617338)    | `FS` | 
+| VLDB'24    | ReAcTable: Enhancing ReAct for Table !estion Answering |   [paper](https://arxiv.org/pdf/2310.00815)    | ？ | 
+| EMNLP'24    | NormTab: Improving Symbolic Reasoning in LLMs Through Tabular Data Normalization |   [paper](https://arxiv.org/pdf/2406.17961)    | ? | 
+| EMNLP'24    | TAP4LLM: Table Provider on Sampling, Augmenting, and Packing Semi-structured Data for Large Language Model Reasoning |   [paper](https://arxiv.org/pdf/2312.09039)    | ? | 
+| EMNLP'24 (Demo)   | OpenT2T: An Open-Source Toolkit for Table-to-Text Generation |   [paper](https://aclanthology.org/2024.emnlp-demo.27.pdf)    | ? | 
+| NAACL'24    | TabSQLify: Enhancing Reasoning Capabilities of LLMs Through Table Decomposition |   [paper](https://arxiv.org/pdf/2404.10150)    | ? | 
+| NAACL'24    | e5: zero-shot hierarchical table analysis using augmented llms via explain, extract, execute, exhibit and extrapolate|   [paper](https://aclanthology.org/2024.naacl-long.68.pdf)    | ? | 
 | CIKM'24    | Reinforcement feature transformation for polymer property performance prediction | [paper](https://dl.acm.org/doi/abs/10.1145/3627673.3680105)    | `FG` | 
 | ICDM'24    | Feature interaction aware automated data representation transformation. |   [paper](https://arxiv.org/pdf/2309.17011)    | `FG` | 
 | NIPS'23    | Reinforcement-enhanced autoregressive feature transformation: gradient-steered search in continuous space for postfix expressions |   [paper](https://arxiv.org/pdf/2010.08784)    | `FG` `FS` | 
@@ -57,6 +68,7 @@ We have collected recent influential papers on Data-Centric AI Technologies empl
 | AAAI'23    | Efficient Top-K Feature Selection Using Coordinate Descent Method | [paper](https://dl.acm.org/doi/10.1609/aaai.v37i9.26258)    | `FS` | 
 | AAAI'23    | T2G-FORMER: Organizing Tabular Features into Relation Graphs Promotes Heterogeneous Feature Interaction | [paper](https://arxiv.org/pdf/2211.16887)    | `FG` | 
 | AAAI'23    | Weight Predictor Network with Feature Selection for Small Sample Tabular Biomedical Data | [paper](https://dl.acm.org/doi/10.1609/aaai.v37i8.26090)    | `FS` | 
+| ACL'23 (Demo)    | OpenRT: An Open-source Framework for Reasoning Over Tabular Data | [paper](https://aclanthology.org/2023.acl-demo.32.pdf)    | ? | 
 | KDD'23     | Treatment Effect Estimation with Adjustment Feature Selection |   [paper](https://dl.acm.org/doi/pdf/10.1145/3580305.3599531)    | `FS` | 
 | KDD'23     | LATTE: A Framework for Learning Item-Features to Make a Domain-Expert for Effective Conversational Recommendation |   [paper](https://dl.acm.org/doi/10.1145/3580305.3599401)    | `FS` | 
 | KDD'23     | Explicit Feature Interaction-aware Uplift Network for Online Marketing |   [paper](https://arxiv.org/pdf/2306.00315)    | `FG` | 
@@ -79,6 +91,7 @@ We have collected recent influential papers on Data-Centric AI Technologies empl
 | KDD'19     | Automating Feature Subspace Exploration via Multi-Agent Reinforcement Learning |   [paper](https://dl.acm.org/doi/10.1145/3292500.3330868)    | `FS` | 
 
 ### Tutorial and Survey Paper
+[Large Language Models for Tabular Data: Progresses and Future Directions](https://dl.acm.org/doi/abs/10.1145/3626772.3661384)
 [A Survey on Table Mining with Large Language Models: Challenges, Advancements and Prospects](https://d197for5662m48.cloudfront.net/documents/publicationstatus/252177/preprint_pdf/3d9c9b7d57481675d0d6e486c8bb7985.pdf)
 [Tabular Data-centric AI: Challenges, Techniques and Future Perspectives](https://dl.acm.org/doi/pdf/10.1145/3627673.3679102)
 [A Survey on Data-Centric AI: Tabular Learning from Reinforcement Learning and Generative AI Perspective](https://arxiv.org/pdf/2502.08828)
