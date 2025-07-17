@@ -75,6 +75,7 @@ We have collected recent influential papers on Data-Centric AI Technologies empl
 | KDD'23     | Cognitive Evolutionary Search to Select Feature Interactions for Click-Through Rate Prediction |   [paper](https://dl.acm.org/doi/10.1145/3580305.3599277)    | `FG` `FS` | 
 | KDD'23     | Scenario-Adaptive Feature Interaction for Click-Through Rate Prediction |   [paper](https://dl.acm.org/doi/10.1145/3580305.3599936)    | `FG` `FS` | 
 | SIGIR'23   | Single-shot feature selection for multi-task recommendations |   [paper](https://dl.acm.org/doi/abs/10.1145/3539618.3591767)    | `FS` |
+| SIGIR'23   | Large Language Models are Versatile Decomposers: Decomposing Evidence and Questions for Table-based Reasoning |   [paper](https://dl.acm.org/doi/abs/10.1145/3539618.3591708)    | ? |
 | TKDE'23    | Automated feature selection: A reinforcement learning perspective |   [paper](https://ieeexplore.ieee.org/abstract/document/9547816)    | `FS` | 
 | ICDM'23    | Self-optimizing Feature Generation via Categorical Hashing Representation and Hierarchical Reinforcement Crossing |   [paper](https://arxiv.org/pdf/2309.04612)    | `FG` | 
 | ICDM'23    | Beyond discrete selection: Continuous embedding space optimization for generative feature selection |   [paper](https://arxiv.org/pdf/2302.13221)    | `FS` | 
