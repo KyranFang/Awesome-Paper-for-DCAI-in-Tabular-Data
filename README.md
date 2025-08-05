@@ -66,7 +66,7 @@ We have collected recent influential papers on Data-Centric AI Technologies empl
 | SIGMOD'24   | SAGA: A Scalable Framework for Optimizing Data Cleaning Pipelines for Machine Learning Applications |   [paper](https://dl.acm.org/doi/10.1145/3617338)    | `FS` | 
 | VLDB'24     | ReAcTable: Enhancing ReAct for Table Question Answering |   [paper](https://arxiv.org/pdf/2310.00815)    | ? | 
 | EMNLP'24    | NormTab: Improving Symbolic Reasoning in LLMs Through Tabular Data Normalization |   [paper](https://arxiv.org/pdf/2406.17961)    | ? | 
-| EMNLP'24    | TAP4LLM: Table Provider on Sampling, Augmenting, and Packing Semi-structured Data for Large Language Model Reasoning |   [paper](https://arxiv.org/pdf/2312.09039)    | ? | 
+| EMNLP'24    | TAP4LLM: Table Provider on Sampling, Augmenting, and Packing Semi-structured Data for Large Language Model Reasoning |   [paper](https://arxiv.org/pdf/2312.09039)    | `Pipeline` | This paper constructed a pipeline to boost LLM's performance of table reasoning by introducing three components, Table Sampling Module, Table Augmentationd Module and Table Packing Module. In each module, the authors designed and compared several common methods under various usage scenarios, aiming to searching for best practices for leveraging LLMs for table reasoning tasks.  |
 | EMNLP'24 (Demo)   | OpenT2T: An Open-Source Toolkit for Table-to-Text Generation |   [paper](https://aclanthology.org/2024.emnlp-demo.27.pdf)    | ? | 
 | NAACL'24    | Rethinking Tabular Data Understanding with Large Language Models | [paper](https://arxiv.org/pdf/2312.16702) | ? |
 | NAACL'24    | TabSQLify: Enhancing Reasoning Capabilities of LLMs Through Table Decomposition |   [paper](https://arxiv.org/pdf/2404.10150)    | ? | 
@@ -98,7 +98,8 @@ We have collected recent influential papers on Data-Centric AI Technologies empl
 | KDD'22     | Group-wise reinforcement feature generation for optimal and explainable representation space reconstruction. |   [paper](https://arxiv.org/pdf/2205.14526)    | `FG` | 
 | KDD'22     | AdaFS: Adaptive Feature Selection in Deep Recommender System |   [paper](https://dl.acm.org/doi/10.1145/3534678.3539204)    | `FS` | 
 | WWW'22     | Autofield: Automating feature selection in deep recommender systems |   [paper](https://dl.acm.org/doi/abs/10.1145/3485447.3512071)    | `FS` | 
-| EMNLP'22   | Realistic Data Augmentation Framework for Enhancing Tabular Reasoning |   [paper](https://aclanthology.org/2022.findings-emnlp.324.pdf)    | `DA` | 
+| EMNLP'22   | Realistic Data Augmentation Framework for Enhancing Tabular Reasoning |   [paper](https://aclanthology.org/2022.findings-emnlp.324.pdf)    | `` | 
+| EMNLP'22   | Leveraging Data Recasting to Enhance Tabular Reasoning |   [paper](https://aclanthology.org/2022.findings-emnlp.324.pdf)    | `` | 
 | KDD'21     | Fives: Feature interaction via edge search for large-scale tabular data |   [paper](https://arxiv.org/pdf/2007.14573)    | `FG` | 
 | CIKM'20    | Tolerant Markov Boundary Discovery for Feature Selection |   [paper](https://dl.acm.org/doi/10.1145/3340531.3415927)    | `FS` | 
 | ICDM'20    | AutoFS: Automated Feature Selection via Diversity-aware Interactive Reinforcement Learning |   [paper](https://arxiv.org/pdf/2008.12001)    | `FS` | 
