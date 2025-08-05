@@ -63,8 +63,7 @@ We have collected recent influential papers on Data-Centric AI Technologies empl
 | ICLR'24    | CABINET: Content Relevance based Noise Reduction for Table Question Answering |   [paper](https://arxiv.org/pdf/2402.01155)    | ? | 
 | ICLR'24    | Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding |   [paper](https://arxiv.org/pdf/2401.04398)    | ? | 
 | ICLR'24    | ReMasker: Imputing Tabular Data with Masked Autoencoding |   [paper](https://openreview.net/pdf?id=KI9NqjLVDT)    | ? | 
-| ICML'24 workshop   | Learning to Reduce: Towards Improving Performance of
-Large Language Models on Structured Data |   [paper](https://arxiv.org/pdf/2407.02750)    | ? | 
+| ICML'24 workshop   | Learning to Reduce: Towards Improving Performance of Large Language Models on Structured Data|   [paper](https://arxiv.org/pdf/2407.02750)    | ? | 
 | KDD'24    | Unsupervised Generative Feature Transformation via Graph Contrastive Pre-training and Multi-objective Fine-tuning |   [paper](https://arxiv.org/pdf/2405.16879)    | `FG` | 
 | KDD'24    | Feature selection as deep sequential generative learning. |   [paper](https://arxiv.org/pdf/2403.03838)    | `FS` | 
 | SIGMOD'24    | SAGA: A Scalable Framework for Optimizing Data Cleaning Pipelines for Machine Learning Applications |   [paper](https://dl.acm.org/doi/10.1145/3617338)    | `FS` | 
