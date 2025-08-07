@@ -7,7 +7,7 @@ This repository focuses exclusively on data-centric AI methods for tabular data.
 
 | Benchmark Name | Task Type     | Year | Source                                                                                  | TLDR |
 |:--------------:|:-------------:|:----:|:---------------------------------------------------------------------------------------:|:-----|
-| MBBench        | Reasoning     | 2025 | [Link](https://github.com/jpeper/MDBench) |
+| MDBench        | Reasoning     | 2025 | [Link](https://github.com/jpeper/MDBench) | MDBench introduces a new multi-document reasoning benchmark synthetically generated through knowledge-guided prompting. |
 | MMQA           | Reasoning     | 2025 | [Link](https://openreview.net/pdf?id=GGlpykXDCa)  [Repo](https://github.com/WuJian1995/MMQA/issues/2)| MMQA is a multi-table multi-hop question answering dataset with 3,312 tables across 138 domains, evaluating LLMs' capabilities in multi-table retrieval, Text-to-SQL, Table QA, and primary/foreign key selection.
 | ToRR           | Reasoning     | 2025 | [Link](https://arxiv.org/pdf/2502.19412)  [Repo](https://github.com/IBM/unitxt/blob/main/prepare/benchmarks/torr.py)| ToRR is a benchmark assessing LLMs' table reasoning and robustness across 10 datasets with diverse table serializations and perturbations, revealing models' brittleness to format variations.
 | MMTU           | Comprehensive | 2025 | [Link](https://arxiv.org/pdf/2506.05587)  [Repo](https://github.com/MMTU-Benchmark/MMTU)| MMTU is a massive multi-task table understanding and reasoning benchmark with over 30K questions across 25 real-world table tasks, designed to evaluate models' ability to understand, reason, and manipulate tables.
@@ -45,6 +45,10 @@ We have collected recent influential papers on Data-Centric AI Technologies empl
 | SIGMOD'25   | GEIL: A Graph-Enhanced Interpretable Data Cleaning Framework with Large Language Models | [paper](https://dl.acm.org/doi/10.1145/3698811)    | `` | 
 | SIGMOD'25   | Auto-Test: Learning Semantic-Domain Constraints for Unsupervised Error Detection in Tables | [paper](https://arxiv.org/pdf/2504.10762) | ? |
 | AAAI'25     | Dynamic and Adaptive Feature Generation with LLM | [paper](https://ojs.aaai.org/index.php/AAAI/article/view/33851)    | `FG` | 
+| ICML'25     | Are Large Language Models Ready for Multi-Turn Tabular Data Analysis? | [paper](https://openreview.net/attachment?id=flKhxGTBj2&name=pdf)    | `` | 
+| ICML'25     | Compositional Condition Question Answering in Tabular Understanding | [paper](https://openreview.net/attachment?id=aXU48nrA2v&name=pdf)    | `` | 
+| ICML'25     | Quantifying Prediction Consistency Under Fine-tuning Multiplicity in Tabular LLMs | [paper](https://arxiv.org/pdf/2407.04173v2)    | `` |
+| ICML'25     | TabICL: A Tabular Foundation Model for In-Context Learning on Large Data | [paper](https://arxiv.org/pdf/2502.05564)    | `` |
 | IJCAI'25    | Evolutionary Large Language Model for Automated Feature Transformation | [paper](https://arxiv.org/pdf/2406.03505)    | `FG` | 
 | ICDM'25     | OpenFE++: Efficient Automated Feature Generation via Feature Interaction |   [paper](https://arxiv.org/pdf/2504.17356)    | `FS` | 
 | NAACL'25    | ALTER: Augmentation for Large-Table-Based Reasoning |   [paper](https://aclanthology.org/2025.naacl-long.9/)    | Table Sampling | The ALTER framework enhances large-table reasoning through a workflow that augments queries into sub-queries and tables with schema, semantic, and literal information, filters relevant rows/columns via embedding-based sampling and LLM-driven selection, generates and executes SQL to obtain sub-tables, and uses a joint reasoner to aggregate results from primary and sub-query workflows.
@@ -60,9 +64,12 @@ We have collected recent influential papers on Data-Centric AI Technologies empl
 | ICLR'24    | CABINET: Content Relevance based Noise Reduction for Table Question Answering |   [paper](https://arxiv.org/pdf/2402.01155)    | ? | 
 | ICLR'24    | Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding |   [paper](https://arxiv.org/pdf/2401.04398)    | ? | 
 | ICLR'24    | ReMasker: Imputing Tabular Data with Masked Autoencoding |   [paper](https://openreview.net/pdf?id=KI9NqjLVDT)    | ? | 
+| ICML'24    | Large Language Models Can Automatically Engineer Features for Few-Shot Tabular Learning |   [paper](https://arxiv.org/pdf/2407.02750)    | ? |
 | ICML'24 workshop   | Learning to Reduce: Towards Improving Performance of Large Language Models on Structured Data|   [paper](https://arxiv.org/pdf/2407.02750)    | ? | 
 | KDD'24      | Unsupervised Generative Feature Transformation via Graph Contrastive Pre-training and Multi-objective Fine-tuning |   [paper](https://arxiv.org/pdf/2405.16879)    | `FG` | 
 | KDD'24      | Feature selection as deep sequential generative learning. |   [paper](https://arxiv.org/pdf/2403.03838)    | `FS` | 
+| KDD'24      | Can a Deep Learning Model be a Sure Bet for Tabular Prediction? | [paper](https://dl.acm.org/doi/10.1145/3637528.3671893) ||
+| KDD'24      | From Supervised to Generative: A Novel Paradigm for Tabular Deep Learning with Large Language Models | [paper](https://arxiv.org/pdf/2310.07338) ||
 | SIGMOD'24   | SAGA: A Scalable Framework for Optimizing Data Cleaning Pipelines for Machine Learning Applications |   [paper](https://dl.acm.org/doi/10.1145/3617338)    | `FS` | 
 | VLDB'24     | ReAcTable: Enhancing ReAct for Table Question Answering |   [paper](https://arxiv.org/pdf/2310.00815)    | ? | 
 | EMNLP'24    | NormTab: Improving Symbolic Reasoning in LLMs Through Tabular Data Normalization |   [paper](https://arxiv.org/pdf/2406.17961)    | ? | 
@@ -74,7 +81,9 @@ We have collected recent influential papers on Data-Centric AI Technologies empl
 | CIKM'24    | Reinforcement feature transformation for polymer property performance prediction | [paper](https://dl.acm.org/doi/abs/10.1145/3627673.3680105)    | `FG` | 
 | ICDM'24    | Feature interaction aware automated data representation transformation. |   [paper](https://arxiv.org/pdf/2309.17011)    | `FG` | 
 | Arxiv'2412    | AutoPrep: Natural Language Question-Aware Data Preparation with a Multi-Agent Framework |   [paper](https://arxiv.org/pdf/2412.10422)    | `Pipeline` | 
+| Arxiv'2411    | Tablegpt2: A large multimodal model with tabular data integration |   [paper](https://arxiv.org/pdf/2411.02059)    | | 
 | NIPS'23    | Reinforcement-enhanced autoregressive feature transformation: gradient-steered search in continuous space for postfix expressions |   [paper](https://arxiv.org/pdf/2010.08784)    | `FG` `FS` | 
+| NIPS'23    | DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction |   [paper](https://arxiv.org/pdf/2304.11015)    |  | 
 | ICML'23    | OpenFE: Automated Feature Generation with Expert-level Performance |   [paper](https://arxiv.org/abs/2211.12507)    | `FG` | 
 | ICDE'23    | Toward Efficient Automated Feature Engineering |   [paper](https://epubs.siam.org/doi/pdf/10.1137/1.9781611978520.3?download=true)    | `FG` `FS` | 
 | ICDE'23    | PA-FEAT: Fast Feature Selection for Structured Data via Progress-Aware Multi-Task Deep Reinforcement Learning |   [paper](https://ieeexplore.ieee.org/abstract/document/10184534)    | `FS` | 
@@ -83,6 +92,7 @@ We have collected recent influential papers on Data-Centric AI Technologies empl
 | AAAI'23    | T2G-FORMER: Organizing Tabular Features into Relation Graphs Promotes Heterogeneous Feature Interaction | [paper](https://arxiv.org/pdf/2211.16887)    | `FG` | 
 | AAAI'23    | Weight Predictor Network with Feature Selection for Small Sample Tabular Biomedical Data | [paper](https://dl.acm.org/doi/10.1609/aaai.v37i8.26090)    | `FS` | 
 | ACL'23 (Demo)    | OpenRT: An Open-source Framework for Reasoning Over Tabular Data | [paper](https://aclanthology.org/2023.acl-demo.32.pdf)    | ? | 
+| ACL'23     | MURMUR: Modular multi-step reasoning for semistructured data-to-text generation | [paper](https://arxiv.org/pdf/2212.08607)    | ? | 
 | KDD'23     | Treatment Effect Estimation with Adjustment Feature Selection |   [paper](https://dl.acm.org/doi/pdf/10.1145/3580305.3599531)    | `FS` | 
 | KDD'23     | LATTE: A Framework for Learning Item-Features to Make a Domain-Expert for Effective Conversational Recommendation |   [paper](https://dl.acm.org/doi/10.1145/3580305.3599401)    | `FS` | 
 | KDD'23     | Explicit Feature Interaction-aware Uplift Network for Online Marketing |   [paper](https://arxiv.org/pdf/2306.00315)    | `FG` | 
@@ -91,8 +101,8 @@ We have collected recent influential papers on Data-Centric AI Technologies empl
 | SIGIR'23   | Single-shot feature selection for multi-task recommendations |   [paper](https://dl.acm.org/doi/abs/10.1145/3539618.3591767)    | `FS` |
 | SIGIR'23   | Large Language Models are Versatile Decomposers: Decomposing Evidence and Questions for Table-based Reasoning |   [paper](https://dl.acm.org/doi/abs/10.1145/3539618.3591708)    | ? |
 | TKDE'23    | Automated feature selection: A reinforcement learning perspective |   [paper](https://ieeexplore.ieee.org/abstract/document/9547816)    | `FS` | 
-| ICDM'23    | Self-optimizing Feature Generation via Categorical Hashing Representation and Hierarchical Reinforcement Crossing |   [paper](https://arxiv.org/pdf/2309.04612)    | `FG` | 
 | ICDM'23    | Beyond discrete selection: Continuous embedding space optimization for generative feature selection |   [paper](https://arxiv.org/pdf/2302.13221)    | `FS` | 
+| Arxiv/2307    | TableGPT: Towards Unifying Tables, Nature Language and Commands into One GPT |   [paper](https://arxiv.org/abs/2307.08674v3)    | `` | 
 | ICML'22    | Difer: differentiable automated feature engineering. |   [paper](https://arxiv.org/abs/2211.12507)    | `FG` `FS` | 
 | KDD'22     | AutoFAS: Automatic Feature and Architecture Selection for Pre-Ranking System |   [paper](https://arxiv.org/pdf/2205.09394)    | `FS` | 
 | KDD'22     | Group-wise reinforcement feature generation for optimal and explainable representation space reconstruction. |   [paper](https://arxiv.org/pdf/2205.14526)    | `FG` | 
