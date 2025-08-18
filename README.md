@@ -106,7 +106,8 @@ We have collected recent influential papers on Data-Centric AI Technologies empl
 | NIPS'23    | Reinforcement-enhanced autoregressive feature transformation: gradient-steered search in continuous space for postfix expressions |   |  [paper](https://arxiv.org/pdf/2010.08784)    | `FG` `FS` | 
 | NIPS'23    | DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction |   |  [paper](https://arxiv.org/pdf/2304.11015)    |  | 
 | ICML'23    | OpenFE: Automated Feature Generation with Expert-level Performance |   |  [paper](https://arxiv.org/abs/2211.12507)    | `FG` | 
-| ICLR'23    | TabPFN: A Transformer That Solves Small Tabular Classification Problems in a Second | Frank Hutter |  [paper](https://openreview.net/pdf?id=cp5PvcI6w8_)    | ? | 
+| ICLR'23    | TabPFN: A Transformer That Solves Small Tabular Classification Problems in a Second | Frank Hutter |  [paper](https://openreview.net/pdf?id=cp5PvcI6w8_)    | ? |  
+| ICLR'23    | Binding Language Models in Symbolic Languages | Tao Yu |  [paper](https://openreview.net/pdf?id=lH1PV42cbF)    | ? | 
 | ICDE'23    | Toward Efficient Automated Feature Engineering |   |  [paper](https://epubs.siam.org/doi/pdf/10.1137/1.9781611978520.3?download=true)    | `FG` `FS` | 
 | ICDE'23    | PA-FEAT: Fast Feature Selection for Structured Data via Progress-Aware Multi-Task Deep Reinforcement Learning |   |  [paper](https://ieeexplore.ieee.org/abstract/document/10184534)    | `FS` | 
 | ICDE'23    | Toward a Unified Framework for Unsupervised Complex Tabular Reasoninh |   |  [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10184763&tag=1) | `Pipeline` |
