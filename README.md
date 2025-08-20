@@ -1,7 +1,5 @@
 # Awesome-Resources-for-Better-Table-Reasoning
 
-This repository focuses exclusively on data-centric AI methods for tabular data. For more general data-centric AI approaches, please refer to [SJTU-DMTai/awesome-ml-data-quality-papers](https://github.com/SJTU-DMTai/awesome-ml-data-quality-papers/blob/main/README.md). 
-
 ## Benchmark
 ### Latest Benchmarks for Tabular Data (Since 2024)
 
