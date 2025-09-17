@@ -38,6 +38,7 @@ We have collected recent influential papers on Data-Centric AI Technologies empl
 
 | Venue       | Paper                                                        | Corresp. Author |                           Links                             |   Tags    | TLDR                                                         |
 | :---------- | :----------------------------------------------------------- | :-------------: |:----------------------------------------------------------: | :-------: | :----------------------------------------------------------- |
+| SIGMOD'26   | ST-Raptor: LLM-Powered Semi-Structured Table Question Answering | Xuanhe Zhou |  [paper](https://arxiv.org/pdf/2508.18190)   | `TP` `TR` |
 | KDD'25      | Continuous Optimization for Feature Selection with Permutation-Invariant Embedding and Policy-Guided Search |   |  [paper](https://arxiv.org/pdf/2505.11601)    | `FS` | 
 | VLDB'25     | Data Imputation with Limited Data Redundancy Using Data Lakes | Nan Tang  |      | `TP` |
 | VLDB'25     | Birdie: Natural Language-Driven Table Discovery Using Differentiable Search Index | Yunjun Gao & Mingwei Zhou | [Paper](https://arxiv.org/pdf/2504.21282)   | `TP` |
