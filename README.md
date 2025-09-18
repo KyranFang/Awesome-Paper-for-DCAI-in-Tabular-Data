@@ -66,7 +66,6 @@ We have collected recent influential papers on Data-Centric AI Technologies empl
 | NAACL'25    | H-STAR: LLM-driven Hybrid SQL-Text Adaptive Reasoning on Tables | Dan Roth & Chandan K. Reddy |  [paper](https://aclanthology.org/2025.naacl-long.445.pdf)    | ?  | 
 | Arxiv'2505  | Text-to-Pipeline: Bridging Natural Language and Data Preparation Pipelin | Yunjun Gao |  [paper](https://arxiv.org/abs/2505.15874)    | `TP` | This papere introduces a table preparation pipeline called Text-to-pipeline which will translated users' input NL queries to data preparation pipelines. Although Autoprep(VLDB'25) can automatically prepare on the Question in QA task, but this paper argues that Autoprep does not support general-purpose pipeline generation. Text-to-pipeline formalizes it as symbolic program generation in a domain-specific language (DSL), which can be compiled into executable backend code such as Pandas or SQL. |
 | Arxiv'2507  | Reinforcement Learning-based Feature Generation Algorithm for Scientific Data | |  [paper](https://arxiv.org/abs/2507.03498)    | `FG` | 
-| Arxiv'2506  | What to Keep and What to Drop: Adaptive Table Filtering Framework | |  [paper](https://arxiv.org/pdf/2506.23463)    | `TP` | 
 | Arxiv'2501  | LEDD: Large Language Model-Empowered Data Discovery in Data Lakes | Yuqing Zhu |  [paper](https://arxiv.org/pdf/2502.15182)    | `TP` |
 | Arxiv'2501  | TableMaster: A Recipe to Advance Table Understanding with Language Models          | |  [paper](https://arxiv.org/pdf/2501.19378)    | `TP` `TR` |
 | Arxiv'2502  | Towards Question Answering over Large Semi-structured Tables  |   |  [paper](https://arxiv.org/pdf/2502.13422)    | ?    |
@@ -159,7 +158,7 @@ We have collected recent influential papers on Data-Centric AI Technologies empl
 
 [Large Language Models(LLMs) on Tabular Data: Prediction, Generation, and Understanding - A Survey](https://arxiv.org/pdf/2402.17944v2)
 
-[Principles of Data Wrangling: Practical Techniques for Data Preparation](https://dl.acm.org/doi/book/10.5555/3165161)
+[Principles of Data Wrangling: Practical Techniques for Data Preparation](https://dl.acm.org/doi/book/10.5555/ƒ3165161)
 
 [Large Language Models for Tabular Data: Progresses and Future Directions](https://dl.acm.org/doi/abs/10.1145/3626772.3661384)
 
